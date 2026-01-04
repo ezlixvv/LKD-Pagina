@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKD Store | Digital Editing Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars-bg"></div>
+
+    <header>
+        <div class="logo-area">
+            <img src="1000471973.png" alt="LKD Logo" class="main-logo" onclick="mostrarProductos('todos')" title="Ver todo">
+            
+            <nav class="side-menu">
+                <span class="menu-label">CATEGORIES</span>
+                <a href="#" class="menu-item" onclick="mostrarProductos('presets')">Presets</a>
+                <a href="#" class="menu-item" onclick="mostrarProductos('scene-packs')">Scene Packs</a>
+            </nav>
+        </div>
+
+        <h1 class="group-title">LKD GROUP</h1>
+        
+        <div class="header-spacer"></div>
+    </header>
+
+    <main class="store-container" id="product-grid">
+        </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
